@@ -13,6 +13,20 @@
       "email": "cesar@correo.com",
       "telefono": "8130974226",
       "empresa": "Empresa"
+    },
+    {
+      "id": "2066",
+      "nombre": "Guillermo del Toro",
+      "email": "guillermo@correo.com",
+      "telefono": "8140564863",
+      "empresa": "Empresa"
+    },
+    {
+      "id": "fe39",
+      "nombre": "Miguel Duran",
+      "email": "midudev@correo.com",
+      "telefono": "8130475698",
+      "empresa": "MiduDev"
     }
   ]
 }
