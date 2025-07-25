@@ -14,6 +14,7 @@ import { nuevoCliente } from './API.js'
         const empresa = document.querySelector('#empresa').value
 
         const cliente = {
+            id: `${Date.now()}`,
             nombre,
             email,
             telefono,
