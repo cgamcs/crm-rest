@@ -1,4 +1,4 @@
-import { obtenerCliente } from './API.js'
+import { obtenerCliente, editarCLiente } from './API.js'
 import { validar, mostrarAlerta } from './funciones.js'
 
 (function() {
@@ -43,8 +43,6 @@ import { validar, mostrarAlerta } from './funciones.js'
             empresa: empresaInput.value
         }
 
-        console.log(cliente)
-
         if( validar(cliente) ) {
             // Mensaje de invalido
             mostrarAlerta('Todos los campos son obligatorios')
@@ -52,5 +50,6 @@ import { validar, mostrarAlerta } from './funciones.js'
         }
 
         // Reescribe el objeto
+        editarCLiente(cliente)
     }
 })()
